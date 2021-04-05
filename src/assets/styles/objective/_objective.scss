@@ -1,0 +1,40 @@
+.obj__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 20px 0;
+}
+
+.obj__card{
+    border: 1px solid rgba(38,38,38,1);
+    box-shadow: 0px 0px 17px 0px rgba(38,38,38,1);
+    height: auto;
+    margin: 20px 0;
+    padding: 30px 0;
+    width: 25%;
+
+    & .obj__title{
+        color: white;
+    }
+
+    & .obj__content{
+        color: gray;
+        font-weight: 10;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .obj__container{
+        justify-content: center;
+    }
+    .obj__card {
+        width: 40%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .obj__card {
+        width: 100%;
+    }
+  }

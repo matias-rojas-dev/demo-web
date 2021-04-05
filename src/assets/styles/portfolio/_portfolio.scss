@@ -1,0 +1,14 @@
+.port__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.port__card{
+    width: 220px;
+    height: 220px;
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+}

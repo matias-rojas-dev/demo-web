@@ -1,0 +1,39 @@
+html{
+    background: #1c1e21;
+    font-family: Roboto
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.my-10{
+    margin: 10px 0;
+}
+
+.ta-center{
+    text-align: center
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 200;
+    color: pink;
+}
+
+.mt-100{
+    margin-top: 100px
+}
+a{
+    text-decoration: none
+}
+@import './header/header';
+@import './about/about';
+@import './objective/objective';
+@import './tecnologies/tecnologies';
+@import './portfolio/portfolio';
+@import './contact/contact';
