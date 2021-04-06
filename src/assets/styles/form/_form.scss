@@ -1,0 +1,23 @@
+.form__container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 50px auto;
+
+    & input, textarea{
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+        outline: none;
+        background-color: #242629;
+        font-size: 15px;
+    }
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+    font: 400 15px Roboto;
+}

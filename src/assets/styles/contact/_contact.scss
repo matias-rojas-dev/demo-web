@@ -7,7 +7,7 @@
 }
 
 .contact__button{
-    border: none;
+    border: 1px solid;
     border-radius: 10px;
     box-shadow: 0px 0px rgb(49, 49, 49);
     cursor: pointer;
@@ -15,9 +15,14 @@
     margin: 50px auto;
     padding: 15px;
     outline: none;
+    
     transition: box-shadow .5s ease;
-
     &:hover{
             box-shadow: 0px 0px 5px 0px rgb(194, 170, 170);
     }
+}
+
+.home{
+    background: #74777c;
+    border: none;
 }
