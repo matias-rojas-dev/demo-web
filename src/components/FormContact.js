@@ -37,6 +37,7 @@ const FormContact = () => {
             <h3 className='subtitle mt-100 ta-center'>Formulario de contacto</h3>
             <form onSubmit={handleSubmit} className='form__container'>
                 <input
+                    className="form__input"
                     type='text'
                     placeholder='Nombre y apellido'
                     name={name}
@@ -45,6 +46,7 @@ const FormContact = () => {
                 />
 
                 <input
+                    className="form__input"
                     type='email'
                     placeholder='Email'
                     name={email}
@@ -53,6 +55,7 @@ const FormContact = () => {
                 />
 
                 <textarea
+                    className="form__input"
                     placeholder='Escríbenos'
                     onChange={handleChangeContent}
                     name={content}

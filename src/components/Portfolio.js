@@ -7,7 +7,7 @@ const Portfolio = () => {
 
     return (
         <div>
-            <h3 className='subtitle mt-100 ta-center'>Our best presentation is our works</h3>
+            <h3 className='subtitle mt-100 ta-center'>Nuestra mejor presentación son nuestros trabajos</h3>
             <div className='port__container'>
                 {
                     cards.map(card => (

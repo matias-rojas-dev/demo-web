@@ -1,19 +1,20 @@
 .form__container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    width: 600px;
-    margin: 50px auto;
+}
 
-    & input, textarea{
-        margin: 10px 0;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        padding: 10px;
-        outline: none;
-        background-color: #242629;
-        font-size: 15px;
-    }
+.form__input{
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    outline: none;
+    background-color: #242629;
+    font-size: 15px;
+    width: 50%;
 }
 
 textarea{
@@ -21,3 +22,10 @@ textarea{
     height: 100px;
     font: 400 15px Roboto;
 }
+
+@media screen and (max-width: 600px) {
+    .form__input{
+        width: 80%;
+    }
+    
+  }

@@ -8,9 +8,9 @@ import Portfolio from './Portfolio';
 import Tecnologies from './Tecnologies';
 
 const Main = () => (
-    <>
-        <Header />
+    <>  
             <div className='container'>
+                <Header />
                 <AboutUs />
                 <Objectives />
                 <Tecnologies />
